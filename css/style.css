@@ -3,7 +3,20 @@
     margin: 0 auto;
 }
 
-.home-page {}
+header {
+    display: block;
+    position: fixed;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    top: 0;
+}
+
+.header-main {
+    display: flex;
+}
 
 .logo {
     top: 10px;
@@ -15,17 +28,6 @@
     text-decoration: none;
     color: white;
     font-family: Tilt Prism;
-}
-
-header {
-    display: flex;
-    position: fixed;
-    background-color: black;
-    height: 50px;
-    width: 100%;
-    justify-self: center;
-    align-items: center;
-    top: 0;
 }
 
 .search input {
