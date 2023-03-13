@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.home-page {}
+
+.logo {
+    top: 10px;
+    left: 10px;
+    font-size: 35px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-family: Tilt Prism;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    top: 0;
+}
+
+.search input {
+    width: 300px;
+    height: 15px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.href-login-register {
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: black;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
+
+.href-login-register a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.href-login-register:hover {
+    background-color: #666464;
+}
+
+.href-login-register a:hover {
+    color: rgb(187, 157, 157);
+}
+
+.home-page footer {
+    margin-top: 10px;
+    box-shadow: -1px 5px 10px black;
+}
+
+.home-page .section-footer {
+    width: 100%;
+    height: 150px;
+}
+
+.home-page .absolute-footer {
+    width: 100%;
+    height: 40px;
+    background-color: #666464;
+}
+
+.login-page,
+.register-page {
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#frm-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    box-shadow: 0px 10px 20px white;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+}
+
+#frm-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    box-shadow: 0px 10px 20px white;
+    border-radius: 5px;
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#frm-login input {
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#frm-register input {
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#frm-login button {
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#frm-register button {
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#frm-login button:hover {
+    background-color: #222222;
+}
+
+#frm-register button:hover {
+    background-color: #222222;
+}
