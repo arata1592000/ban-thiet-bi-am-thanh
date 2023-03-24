@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-None
-=======
-None
->>>>>>> clone
+NONE
