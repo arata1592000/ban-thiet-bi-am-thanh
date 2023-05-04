@@ -28,8 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
             listAccount.push(account);
             localStorage.setItem('listAccount', JSON.stringify(listAccount));
             alert("Đăng ký thành công");
-            event.preventDefault();
+            return true;
         }
+        alert("Vui lòng nhập đúng thông tin");
+        event.preventDefault();
     });
 
     var btnLogin = document.getElementById('btnLogin');

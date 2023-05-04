@@ -5,32 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <title>Phớ Thích Hát - Trang mua bán thiết bị âm thâm</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/login-register.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/script-login-register.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
 </head>
 
 <body class="login-page">
-    <script>
-    </script>
-
-    <header class="header-main">
-        <div class="logo">
-            <a href="../index.html">Phớ Thích Hát</a>
+    <header>
+        <div class="header-main">
+            <div class="logo">
+                <a href="../index.html">Phớ Thích Hát</a>
+            </div>
+            <div class="search">
+                <form action="" method="post">
+                    <input type="text" name="search" id="txt-search" placeholder="Bạn cần tìm thứ gì?">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="href-login-register">
+                <a href="./login-register-page.html">Đăng nhập / Đăng ký</a>
+            </div>
         </div>
-        <div class="search">
-            <form action="" method="post">
-                <input type="text" name="search" id="txt-search" placeholder="Bạn cần tìm thứ gì?">
-                <button type="submit">Go</button>
-            </form>
-        </div>
-        <div class="href-login-register">
-            <a href="#">Đăng nhập</a>
-            <span style="color: white;">/</span>
-            <a href="#">Đăng ký</a>
-        </div>
+        <nav class="header-menu">
+            <div>
+                <div class="title-item-menu" id="menu-product">
+                    <i class="fa-solid fa-bars"></i>Danh mục sản phẩm
+                    <div class="box-menu-item">
+                        <ul>
+                            <li class="menu-item"><a href="">Micro Thu Âm</a></li>
+                            <hr>
+                            <li class="menu-item"><a href="">Loa</a></li>
+                            <hr>
+                            <li class="menu-item"><a href="">Mixer</a></li>
+                            <hr>
+                            <li class="menu-item"><a href="">Phụ Kiện</a></li>
+                            <hr>
+                            <li class="menu-item"><a href="">Tai Nghe</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="title-item-menu" id="list-account">
+                    <a href="../index.html">
+                        <i class="fa-solid fa-house"></i> Trang chủ
+                    </a>
+                </div>
+                <div class="title-item-menu" id="profile-team">
+                    <a href="../html/profile-team-page.html">
+                        <i class="fa-solid fa-people-group"></i> Về chúng tôi
+                    </a>
+                </div>
+                <div class="title-item-menu" id="list-account">
+                    <a href="../html/list-account.html">
+                        <i class="fa-solid fa-file-invoice"></i> Tài khoản
+                    </a>
+                </div>
+            </div>
+        </nav>
     </header>
     <div class="wrapper">
         <div class="image-login-register">
@@ -38,8 +75,8 @@
         </div>
         <div class="form">
             <div class="login-form">
-                <form action="#" method="post" id="frm-login">
-                    <h1>Đăng nhập</h1>
+                <form action="../index.html" method="post" id="frm-login">
+                    <h2>Đăng nhập</h2>
                     <div class="txt-field">
                         <input type="text" name="username" id="txtUsernameLogin" required>
                         <label for="txtUsernameLogin">Tên đăng nhập</label>
@@ -61,8 +98,8 @@
                 </form>
             </div>
             <div class="register-form">
-                <form action="#" method="post" id="frm-register">
-                    <h1>Đăng ký</h1>
+                <form action="../html/list-account.html" method="post" id="frm-register">
+                    <h2>Đăng ký</h2>
                     <div class="txt-field">
                         <input type="text" name="username" id="txtUsernameRegister" required>
                         <label for="txtUsernameRegister">Tên đăng nhập</label>

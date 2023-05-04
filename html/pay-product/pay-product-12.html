@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phớ Thích Hát - Trang mua bán thiết bị âm thâm</title>
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/pay-product.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/Page_Pay.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/script-pay-product.js"></script>
+    <!-- <script>
+        function showContent(id) {
+          var content = document.getElementById(id);
+          if (content.style.display === 'none') {
+            content.style.display = 'block';
+          } else {
+            content.style.display = 'none';
+          }
+        }   
+    </script> -->
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div class="header-main">
+                <div class="logo">
+                    <a href="../../index.html">Phớ Thích Hát</a>
+                </div>
+                <div class="search">
+                    <form action="" method="post">
+                        <input type="text" name="search" id="txt-search" placeholder="Bạn cần tìm thứ gì?">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="href-login-register">
+                    <a href="../login-register-page.html">Đăng nhập / Đăng ký</a>
+                </div>
+            </div>
+            <nav class="header-menu">
+                <div>
+                    <div class="title-item-menu" id="menu-product">
+                        <i class="fa-solid fa-bars"></i>Danh mục sản phẩm
+                        <div class="box-menu-item">
+                            <ul>
+                                <li class="menu-item"><a href="">Micro Thu Âm</a></li>
+                                <hr>
+                                <li class="menu-item"><a href="">Loa</a></li>
+                                <hr>
+                                <li class="menu-item"><a href="">Mixer</a></li>
+                                <hr>
+                                <li class="menu-item"><a href="">Phụ Kiện</a></li>
+                                <hr>
+                                <li class="menu-item"><a href="">Tai Nghe</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="title-item-menu" id="list-account">
+                        <a href="../../index.html">
+                            <i class="fa-solid fa-house"></i> Trang chủ
+                        </a>
+                    </div>
+                    <div class="title-item-menu" id="profile-team">
+                        <a href="../profile-team-page.html">
+                            <i class="fa-solid fa-people-group"></i> Về chúng tôi
+                        </a>
+                    </div>
+                    <div class="title-item-menu" id="list-account">
+                        <a href="../list-account.html">
+                            <i class="fa-solid fa-file-invoice"></i> Tài khoản
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content">
+            <div class="content_wrapper">
+                <div class="large-12">
+                    <div class="cart_top_action">
+                        <a href="../../index.html">
+                            < Mua thêm sản phẩm khác </a>
+                                <span>Giỏ hàng của bạn</span>
+                    </div>
+                    <div class="cart_middle_action">
+                        <div class="cart_messseger">
+                            <p> “Micro thu âm USB MAONO AU-903 Fairy” đã được thêm vào giỏ hàng</p>
+                        </div>
+                        <table class="cart_woocommerce">
+                            <tr class="cart_woocommerce_row">
+                                <td class="product_thumbnail"><img src="../../images/avt-product-homepage/sp12.jpg" alt=""> <i class="fa-solid fa-trash-can"></i></td>
+                                <td class="product_name"><a>Micro thu âm USB MAONO AU-903 Fairy</a></td>
+                                <td class="product_quanlity">
+                                    <div class="product_price"> <bdi>1.850.000đ</bdi> </div>
+                                    <div class="quanlity_buttons_added">
+                                        <label for="soluong">Số lượng:</label>
+                                        <input aria-label="quantity" class="input-qty" max="5" min="1" name="" type="number" value="1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="cart_woocommerce_row1">
+                                <td class="action" colspan="3">
+                                    <div class="coupon_wrap">
+                                        Sữ dụng mã giảm giá
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="cart_woocommerce_row2">
+                                <td class="t1" colspan="2">Tạm tính(1 sản phẩm)</td>
+                                <td class="t2" colspan="1"><bdi>1.850.000đ</bdi></td>
+                            </tr>
+                        </table>
+                        <div class="woocomerce_checkout">
+                            <div class="Payment_delivery">
+                                <h3>THANH TOÁN VÀ GIAO HÀNG</h3>
+                                <p id="name">
+                                    <label for="txtHoTen"> Họ Và Tên</label><br>
+                                    <input type="text" id="txtHoTen"> <br>
+                                    <span id="tbHoTen" class="text-danger">*</span>
+                                </p>
+                                <div class="shipping">
+                                    <p>
+                                        <label for="txtSDT">Số Điện Thoại</label> <br>
+                                        <input type="text" id="txtSDT"> <br>
+                                        <span id="tbSDT" class="text-danger">*</span>
+                                    </p>
+                                    <p>
+                                        <label for="txtEmail">Địa chỉ email</label><br>
+                                        <input type="text" id="txtEmail"> <br>
+                                        <span id="tbEmail" class="text-danger">*</span>
+                                    </p>
+                                    <p>
+                                        <label for="txtCity">Tỉnh/Thành Phố</label> <br>
+                                        <input type="text" id="txtCity"> <br>
+                                        <span id="tbCity" class="text-danger">*</span>
+                                    </p>
+                                    <p> <label for="txtDistrict">Quận huyện</label> <br>
+                                        <input type="text" id="txtDistrict"> <br>
+                                        <span id="tbDistrict" class="text-danger">*</span>
+                                    </p>
+                                    <p> <label for="txtWards">Xã Phường</label> <br>
+                                        <input type="text" id="txtWards"> <br>
+                                        <span id="tbWards" class="text-danger">*</span>
+                                    </p>
+                                    <p> <label for="txtAddress">Địa chỉ</label> <br>
+                                        <input type="text" id="txtAddress"> <br>
+                                        <span id="tbAddress" class="text-danger">*</span>
+                                    </p>
+                                    <div class="note"> <label for="">Ghi chú đơn hàng(Tùy chọn)</label>
+                                        <textarea name="" id="" placeholder="Ghi chú về đơn hàng, ví dụ: Thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn"></textarea>
+                                    </div>
+                                    <div class="woocomerce_checkout_review_order">
+                                        <table>
+                                            <tr>
+                                                <td>Tạm tính(1 sản phẩm) </td>
+                                                <td id="d2">1.850.000đ</td>
+                                            </tr>
+                                            <tr>
+                                                <td> <b> Giao Hàng</b></td>
+                                                <td id="d2">Tính phí khi nhân viên xác nhận lại</td>
+                                            </tr>
+                                            <tr>
+                                                <td> <b>Tổng</b> </td>
+                                                <td id="d2">1.850.000đ </td>
+                                            </tr>
+                                        </table>
+                                        <div class="pay_for"> <input type="radio" name="pay" id="pay" onclick="showContent('content1')"> Chuyển khoản ngân hàng-Ưu đãi vận chuyển
+                                            <div id="content1" style="display: none;">
+                                                Thực hiện thanh toán vào ngay tài khoản ngân hàng của chúng tôi. Vui lòng sử dụng Mã đơn hàng của bạn trong phần Nội dung thanh toán. Đơn hàng sẽ đươc giao sau khi tiền đã chuyển.
+                                            </div>
+                                        </div>
+                                        <div class="pay_for"> <input type="radio" name="pay" id="pay" onclick="showContent('content2')"> Trà tiền mặt khi nhận hàng
+                                            <div id="content2" style="display: none;">
+                                                Trả tiền mặt khi giao hàng.
+                                            </div>
+                                        </div>
+                                        <div class="place_order">
+                                            <a href="#" id="myOrder">Đặt hàng</a>
+                                        </div>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                        <h2 style="text-align: center;"></h2>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Bạn đã đặt hàng thành công.</p>\
+                                                        <div class="text-danger" id="thongbao"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button id="btnsave" type="button" class="btn btn-default" data-dismiss="modal">Lưu</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--  -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper-footer">
+                <div class="section-footer">
+                    hj
+                </div>
+                <div class="absolute-footer">
+                    Cafeboss
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
