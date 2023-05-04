@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             listAccount.push(account);
             localStorage.setItem('listAccount', JSON.stringify(listAccount));
             alert("Đăng ký thành công");
+            window.location.href = '../html/list-account.html';
             return;
         }
         alert("Vui lòng nhập đúng thông tin");
@@ -39,6 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let i = 0; i < listAccount.length; i++) {
             if (txtUsernameLogin.value == listAccount[i].username && txtPasswordLogin.value == listAccount[i].password) {
                 alert("Đăng nhập thành công");
+                form.submit();
+                window.location.href = '../index.html';
                 return;
             }
         };
